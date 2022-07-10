@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda parte</title>
+    <link rel="stylesheet" href="assets/css/estiloSegundaParte.css">
+</head>
+<body>
+    <div class="dogsStickers">
+        <div class="dogsStickersHijo">
+            <div class="tittleBox">
+                <h2>Elige hasta un máximo de 10 Stickers totales de perros</h2>
+            </div>
+            <div class="perrosPadre">
+                <div class="perroUno imagen">
+                    <img src="https://placedog.net/501" alt="" srcset="">
+                    <input type="number" name="dogFirst" id="dogFirst" value="0">
+                </div>
+                <div class="perroDos imagen">
+                    <img src="https://placedog.net/502" alt="" srcset="">
+                    <input type="number" name="dogSecond" id="dogSecond" value="0">
+                </div>
+                <div class="perroTres imagen">
+                    <img src="https://placedog.net/503" alt="" srcset="">
+                    <input type="number" name="dogThird" id="dogThird" value="0">
+                </div>
+            </div>
+            
+        </div>
+        <div class="resultado">
+            <button onclick="entregaResultado()">Pedir Stickers</button>
+            <h3 id="resultadoPerros">
+        
+            </h3>
+        </div>
+    </div>
+
+    <script src="assets/js/scriptSegundaParte.js"></script>
+</body>
+</html>
